@@ -6767,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
+		(property "Footprint" "TB6612FNG:TB6612FNG_Driver"
 			(at 50.8 121.92 0)
 			(effects
 				(font
