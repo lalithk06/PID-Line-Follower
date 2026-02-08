@@ -177,8 +177,8 @@
 		)
 		(symbol "TB6612FNG_MD_0_0"
 			(rectangle
-				(start -10.16 -12.7)
-				(end 10.16 15.24)
+				(start -10.16 15.24)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -350,7 +350,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 5.08 180)
+				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "A01"
 					(effects
@@ -368,7 +368,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 2.54 180)
+				(at 15.24 5.08 180)
 				(length 5.08)
 				(name "A02"
 					(effects
@@ -386,7 +386,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -2.54 180)
+				(at 15.24 0 180)
 				(length 5.08)
 				(name "B01"
 					(effects
@@ -404,7 +404,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -5.08 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "B02"
 					(effects
@@ -462,6 +462,44 @@
 				(at 15.24 -10.16 180)
 				(length 5.08)
 				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TB6612FNG_MD_1_1"
+			(pin power_in line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font

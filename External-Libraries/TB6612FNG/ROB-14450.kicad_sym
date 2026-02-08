@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 16.002 0)
+			(at -9.652 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "TB6612FNG_MD"
-			(at -10.16 -15.24 0)
+			(at -15.494 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ROB-14450:MODULE_ROB-14450"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,17 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SparkFun Electronics"
+		(property "MF" ""
+			(at -10.922 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +75,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "TB6612FNG - Motor Controller/Driver Power Management Evaluation Board"
+		(property "Package" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -75,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Price" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,7 +95,18 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Check_prices" ""
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ROB-14450/SparkFun/view-part/?ref=eda"
+		(property "PARTREV" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -105,7 +126,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendation"
+		(property "SnapEDA_Link" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -115,7 +136,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "11-13-17"
+		(property "MP" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +146,18 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ROB-14450/SparkFun/view-part/?ref=snap"
+		(property "Purchase-URL" ""
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,37 +167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ROB-14450"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2656367&manufacturer=SparkFun Electronics&part_name=ROB-14450&search_term=tb6612fng"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Sparkfun Electronics"
+		(property "MANUFACTURER" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -432,44 +434,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
