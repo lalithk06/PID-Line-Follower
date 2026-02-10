@@ -4301,16 +4301,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 48.26) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e28ca1e-9a44-46d9-87a4-6babede7a6ae")
-	)
-	(wire
-		(pts
 			(xy 125.73 78.74) (xy 125.73 72.39)
 		)
 		(stroke
@@ -6928,73 +6918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61e2c2b7-0677-4b2f-ab88-84ba02f9532a")
-		(property "Reference" "TP3"
-			(at 106.68 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_3V3"
-			(at 106.68 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
-			(at 101.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c7a0927-1d21-4e9c-bd40-f87348256398")
-		)
-		(instances
-			(project "Line_Follower"
-				(path "/defca6a9-24dc-49d0-b78f-524feb7c47ac"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 236.22 100.33 0)
 		(unit 1)
@@ -7832,7 +7755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a935cc14-9cf2-4a2e-b6fc-ffbecefb39fe")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 25.908 62.23 90)
 			(effects
 				(font
@@ -7848,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 29.21 62.23 0)
 			(effects
 				(font
@@ -7881,7 +7804,7 @@
 		(instances
 			(project "Line_Follower"
 				(path "/defca6a9-24dc-49d0-b78f-524feb7c47ac"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8182,7 +8105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 38.1 38.1 0)
 			(effects
 				(font
