@@ -5302,7 +5302,7 @@
 	)
 	(gr_line
 		(start 98.477998 34.2914)
-		(end 98.5 51)
+		(end 98.5 51.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -5311,7 +5311,7 @@
 		(uuid "1705250b-6097-4ecd-afc1-3bf667a71c57")
 	)
 	(gr_line
-		(start 98.5 51)
+		(start 98.5 51.5)
 		(end 109.5 82.75)
 		(stroke
 			(width 0.05)
