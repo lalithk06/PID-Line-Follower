@@ -3794,12 +3794,6 @@
 		(uuid "c1dbe437-602e-47a6-860e-7b8052397ebd")
 	)
 	(junction
-		(at 44.45 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1d9c626-f54f-43fb-a2e9-766614336ec6")
-	)
-	(junction
 		(at 242.57 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4055,16 +4049,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 44.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22cbd07e-c72a-4713-ace0-9e917a4520c7")
-	)
-	(wire
-		(pts
 			(xy 135.89 52.07) (xy 139.7 52.07)
 		)
 		(stroke
@@ -4205,16 +4189,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 59.69) (xy 49.53 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4827c667-3a76-4864-8860-f35a5986822f")
-	)
-	(wire
-		(pts
 			(xy 95.25 111.76) (xy 99.06 111.76)
 		)
 		(stroke
@@ -4345,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 59.69) (xy 44.45 57.15)
+			(xy 44.45 57.15) (xy 44.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5453,7 +5427,7 @@
 			)
 		)
 	)
-	(global_label "VBAT_IN+"
+	(global_label "VBAT+"
 		(shape input)
 		(at 76.2 43.18 90)
 		(fields_autoplaced yes)
@@ -5465,7 +5439,7 @@
 		)
 		(uuid "5c1b1ce1-ebaa-489e-969d-47258155f3fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 31.3047 90)
+			(at 76.2 34.2076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,28 +5867,6 @@
 			)
 		)
 	)
-	(global_label "VBAT_IN+"
-		(shape input)
-		(at 49.53 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b06d3e5d-77a4-4eb6-9e50-3d2082959a5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4053 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IR5"
 		(shape input)
 		(at 135.89 52.07 180)
@@ -6297,6 +6249,38 @@
 					(italic yes)
 				)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 44.45 60.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fe52126-dbec-498c-9d79-a5183c95e7b4")
+		(property "Netclass" "VBAT"
+			(at 46.99 60.2615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -71.12 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)

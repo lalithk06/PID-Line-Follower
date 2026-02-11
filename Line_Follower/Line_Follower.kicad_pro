@@ -584,6 +584,9 @@
     "netclass_assignments": {
       "Net-(D2-A)": [
         "Default"
+      ],
+      "Net-(J1-Pin_1)": [
+        "VBAT"
       ]
     },
     "netclass_patterns": [
