@@ -6712,7 +6712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitors:CAPPRD750W80D1600H2500"
 			(at 86.0552 134.62 0)
 			(effects
 				(font
@@ -7194,7 +7194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitors:C320C"
 			(at 96.2152 110.49 0)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitors:C320C"
 			(at 93.6752 134.62 0)
 			(effects
 				(font
@@ -8695,7 +8695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitors:CAPPRD750W80D1600H2500"
 			(at 103.8352 110.49 0)
 			(effects
 				(font
