@@ -1,4 +1,4 @@
-27320261101553509
+27325573574869025
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6751,6 +6751,20 @@ Capacitor_Tantalum_SMD
 CP_EIA-7361-438_AVX-U_HandSolder
 Tantalum Capacitor SMD AVX-U (7361-438 Metric), IPC-7352 nominal, (Body size from: http://datasheets.avx.com/NOS.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+0
+2
+2
+Capacitors
+C320C
+<b>C320C</b><br>
+
+0
+2
+2
+Capacitors
+CAPPRD750W80D1600H2500
+
+
 0
 2
 2
@@ -74752,6 +74766,13 @@ net tie
 0
 4
 4
+OP
+OP
+
+
+0
+0
+0
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

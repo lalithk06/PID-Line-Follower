@@ -613,10 +613,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Line_Follower.stl",
       "svg": "",
       "vrml": ""
     },
