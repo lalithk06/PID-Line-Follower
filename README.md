@@ -63,13 +63,13 @@ Design considerations:
 ## 📷 Preview
 
 ### 🖼️ Schematic  
-![Schematic](schematic.png)
+![Schematic](Schematic.png)
 
 ### 📐 PCB Layout  
-![PCB](pcb.png)
+![PCB](PCB.png)
 
 ### 🧊 3D View  
-![3D](3d_view.png)
+![3D](3D.png)
 
 ---
 
@@ -114,7 +114,3 @@ This project helped strengthen understanding of:
 - Grounding strategies  
 - Motor driver layout considerations  
 - Hardware debugging practices  
-
----
-
-⭐ *Part of my journey into embedded hardware and PCB design.*
