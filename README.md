@@ -7,15 +7,15 @@ This project showcases the schematic and PCB design of a reliable line follower 
 
 ## ⚙️ Working Principle
 
-- The **ESP32 DevKit (38-pin)** acts as the main controller.
-- An **8-channel IR sensor array** detects the line:
-  - **6 sensors operate in analog mode** for precise position tracking.
-  - **2 sensors operate in digital mode** for edge detection.
-- The **TB6612FNG motor driver** controls two DC motors with efficient PWM-based speed regulation.
-- A **LM2596 buck converter** steps down the battery voltage to provide a stable **3.3V rail** for the ESP32 and logic circuitry.
+- The ESP32 DevKit (38-pin) acts as the main controller.
+- An 8-channel IR sensor array detects the line:
+  - 6 sensors operate in analog mode for precise position tracking.
+  - 2 sensors operate in digital mode for edge detection.
+- The TB6612FNG motor driver controls two DC motors with efficient PWM-based speed regulation.
+- A LM2596 buck converter steps down the battery voltage to provide a stable **3.3V rail** for the ESP32 and logic circuitry.
 - Two push buttons allow:
-  - **Calibration mode** – tune sensor thresholds.
-  - **Mode selection** – switch between operating behaviors.
+  - Calibration mode – tune sensor thresholds.
+  - Mode selection – switch between operating behaviors.
 - Decoupling capacitors and a ground plane ensure noise reduction and power stability.
 
 ---
