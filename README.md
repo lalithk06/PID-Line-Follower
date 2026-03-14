@@ -1,8 +1,30 @@
 # 🤖 ESP32 Line Follower Robot — Hardware Design
 *A compact and efficient line follower robot built using the ESP32*
 
+<p align="center">
+<img src="Hardware/Images/Bot/LF_Bot.jpeg" width="500">
+</p>
+
 This project showcases the schematic and PCB design of a reliable line follower robot capable of high-speed tracking with stable power delivery and clean motor control. It is designed as a practical exploration of real-world embedded hardware development and PCB design workflows.
 
+---
+
+## 📂 Repository Structure
+```
+PID-Line-Follower
+│
+├── Firmware
+│   └── Arduino_Code
+│
+├── Hardware
+│   ├── Images
+│   ├── Schematic
+│   ├── Datasheet
+│   └── Pin_Mapping
+│
+├── README.md
+└── .gitignore
+```
 ---
 
 ## ⚙️ Working Principle
@@ -57,6 +79,21 @@ Design considerations:
 ✅ Dedicated ground plane  
 ✅ Local decoupling near driver and ESP32  
 ✅ Separate motor and logic routing where possible  
+
+---
+
+## 💻 Firmware
+
+The robot firmware is written for the ESP32 using the Arduino framework.
+
+Key features of the control software:
+
+• Multi-sensor line detection  
+• Adaptive speed control  
+• PID-based steering correction  
+• Calibration routines for sensor tuning  
+
+Firmware source code is available in the `Firmware` directory.
 
 ---
 
