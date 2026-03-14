@@ -1,0 +1,11 @@
+# Ignore CAD files
+Chassis/
+
+# Ignore manufacturing files
+Manufacturing Files/
+
+# Ignore external libraries
+External-Libraries/
+
+# Ignore external 3D models
+External-3D-Models/
