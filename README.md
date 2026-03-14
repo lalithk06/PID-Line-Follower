@@ -5,7 +5,7 @@
 <img src="Hardware/Images/Bot/LF_Bot.jpeg" width="500">
 </p>
 
-## 🎥 Demo
+## Demo
 <p align="center">
   <img src="Hardware/Images/Bot/Demo.gif" width="500">
 </p>
@@ -32,7 +32,7 @@ PID-Line-Follower
 ```
 ---
 
-## ⚙️ Working Principle
+## Working Principle
 
 - The ESP32 DevKit (38-pin) acts as the main controller.
 - An 8-channel IR sensor array detects the line:
@@ -59,7 +59,7 @@ To design and develop a robust hardware platform for a line follower robot that 
 
 ---
 
-## 🔧 Hardware Overview
+## Hardware Overview
 
 | No. | Component | Role |
 |------|------------|--------|
@@ -74,7 +74,7 @@ To design and develop a robust hardware platform for a line follower robot that 
 
 ---
 
-## 🔋 Power Architecture
+## Power Architecture
 
 **Battery → Slide Switch → LM2596 Buck → 3.3V Rail**
 
@@ -87,7 +87,7 @@ Design considerations:
 
 ---
 
-## 💻 Firmware
+## Firmware
 
 The robot firmware is written for the ESP32 using the Arduino framework.
 
@@ -115,7 +115,7 @@ Firmware source code is available in the `Firmware` directory.
 
 ---
 
-## ⭐ Key Features
+## Key Features
 
 ✅ Stable buck-regulated power supply  
 ✅ High-efficiency TB6612FNG motor control  
@@ -126,7 +126,7 @@ Firmware source code is available in the `Firmware` directory.
 
 ---
 
-## 🧠 Design Notes
+## Design Notes
 
 - Motor traces are sized to handle higher current.
 - Ground return paths are optimized using copper pour.
@@ -135,7 +135,7 @@ Firmware source code is available in the `Firmware` directory.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - PID tuning for smoother tracking  
 - Encoder-based speed feedback  
