@@ -63,13 +63,13 @@ Design considerations:
 ## 📷 Preview
 
 ### 🖼️ Schematic  
-![Schematic](Images\Design\Schematic.png)
+![Schematic](Images/Design/Schematic.png)
 
 ### 📐 PCB Layout  
-![PCB](Images\Design\PCB.png)
+![PCB](Images/Design/PCB.png)
 
 ### 🧊 3D View  
-![3D](Images\Design\3D.png)
+![3D](Images/Design/3D.png)
 
 ---
 
