@@ -5,6 +5,9 @@
 <img src="Hardware/Images/Bot/LF_Bot.jpeg" width="500">
 </p>
 
+## 🎥 Demo
+![Robot Demo](Hardware/Images/Bot/Demo.gif)
+
 This project showcases the schematic and PCB design of a reliable line follower robot capable of high-speed tracking with stable power delivery and clean motor control. It is designed as a practical exploration of real-world embedded hardware development and PCB design workflows.
 
 ---
